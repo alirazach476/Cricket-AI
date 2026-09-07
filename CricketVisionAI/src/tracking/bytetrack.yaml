@@ -1,0 +1,14 @@
+# ByteTrack settings — tuned for small cricket ball + players
+tracker_type: bytetrack
+
+# Keep lost ball tracks longer
+track_buffer: 60
+
+# Slightly looser association helps fast ball jumps
+match_thresh: 0.7
+
+track_high_thresh: 0.20
+track_low_thresh: 0.05
+new_track_thresh: 0.12
+
+fuse_score: True

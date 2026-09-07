@@ -1,0 +1,33 @@
+train: C:\Users\DELL\Downloads\Cricket Actions\train\images
+val: C:\Users\DELL\Downloads\Cricket Actions\valid\images
+test: C:\Users\DELL\Downloads\Cricket Actions\test\images
+kpt_shape:
+- 13
+- 3
+flip_idx:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+nc: 5
+names:
+- Cover-Drive
+- Front-foot
+- Square-short
+- helicopter-shot
+- pull-shorts
+roboflow:
+  workspace: cricket-h44wi
+  project: cricket-actions-30u7f
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cricket-h44wi/cricket-actions-30u7f/dataset/1

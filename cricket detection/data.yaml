@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['batsman', 'fielder', 'umpire']
+
+roboflow:
+  workspace: vaibhav-zvscb
+  project: object_detection-vzpg5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vaibhav-zvscb/object_detection-vzpg5/dataset/1

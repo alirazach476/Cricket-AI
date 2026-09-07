@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Ball', 'Batsman', 'Bowler', 'ScoreCards']
+
+roboflow:
+  workspace: fast-nuces-secgb
+  project: cricket-player-detection-j9qnk
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fast-nuces-secgb/cricket-player-detection-j9qnk/dataset/2

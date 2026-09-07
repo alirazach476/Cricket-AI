@@ -1,0 +1,58 @@
+# Dependencies & caches
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+**/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datasets (keep only weights + yaml)
+**/train/
+**/valid/
+**/test/
+**/runs/
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.JPG
+!**/*.gitkeep
+!CricketVisionAI/frontend/public/**
+
+# Videos & large media
+**/*.mp4
+**/*.avi
+**/*.mov
+**/*.mkv
+**/*.webm
+**/*.zip
+**/*.rar
+**/*.7z
+
+# Pipeline runtime
+CricketVisionAI/output/**
+!CricketVisionAI/output/.gitkeep
+CricketVisionAI/input/uploads/**
+!CricketVisionAI/input/uploads/.gitkeep
+CricketVisionAI/input/*.mp4
+
+# Notebooks checkpoints / local dumps
+.ipynb_checkpoints/
+**/aaa_frames/
+**/aaa_extracted/
+**/compare_frames/

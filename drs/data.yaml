@@ -1,0 +1,9 @@
+names:
+- Bat
+- pad
+- pitch
+- stumps
+nc: 4
+test: test/images
+train: train/images
+val: valid/images

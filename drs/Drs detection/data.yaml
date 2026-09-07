@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bat', 'balls', 'batsman', 'pad', 'pitch', 'stumps']
+
+roboflow:
+  workspace: naveen-akash
+  project: drs-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/naveen-akash/drs-detection/dataset/1

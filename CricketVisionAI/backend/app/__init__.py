@@ -1,0 +1,1 @@
+"""CricketVisionAI backend application package."""
