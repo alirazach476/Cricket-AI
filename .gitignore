@@ -33,6 +33,11 @@ desktop.ini
 **/*.JPG
 !**/*.gitkeep
 !CricketVisionAI/frontend/public/**
+!media/**
+!media/**/*.png
+!media/**/*.jpg
+!media/**/*.jpeg
+!media/**/*.webp
 
 # Videos & large media
 **/*.mp4
@@ -40,6 +45,7 @@ desktop.ini
 **/*.mov
 **/*.mkv
 **/*.webm
+!media/**/*.mp4
 **/*.zip
 **/*.rar
 **/*.7z
